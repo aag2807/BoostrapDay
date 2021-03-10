@@ -27,7 +27,7 @@
       <div class="container-fluid">
         <div class="row">
           <!-- SideBar -->
-          <div class="col-lg-3 sidebar fixed-top">
+          <div class="col-md-4 col-xl-2 col-lg-3 sidebar fixed-top">
             <a href="#" class=" bottom-border navbar-brand text-white d-block mx-auto text-center py-3 mb-4">Me&Me</a>
 
             <div class="bottom-border pb-3">
@@ -102,31 +102,745 @@
                 </a>
               </li>
               <!-- End Link 8 -->
-
-
-
-
-
             </ul>
           </div>
-          <!-- End  of SideBar -->
-          <!-- Top nav -->
-          <div class="col-lg-9">
-
-          </div>
-          <!-- End of Top nav -->
-
-
         </div>
+        <!-- Top nav -->
+        <div class="col-md-8 col-xl-10 col-lg-9 ml-auto bg-dark fixed-top py-2 top-navbar">
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <h4 class="text-light text-uppercase mb-0">Dashboard</h4>
+            </div>
+            <div class="col-md-5">
+              <form class="">
+                <div class="input-group">
+                  <input type="text" class="form-control search-input" placeholder="Search...">
+                  <button class="btn btn-light search-btn">
+                    <i class="fas fa-search text-danger"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-3">
+              <ul class="navbar-nav">
+                <li class="nav-item icon-parent">
+                  <a href="#" class="nav-link icon-bullet">
+                    <i class="fas fa-comments text-muted fa-lg"></i>
+                  </a>
+                </li>
+                <li class="nav-item icon-parent">
+                  <a href="#" class="nav-link icon-bullet">
+                    <i class="fas fa-bell text-muted fa-lg"></i>
+                  </a>
+                </li>
+                <li class="nav-item ml-md-auto" data-toggle="modal" data-target="#myModal">
+                  <a href="#" class="nav-link ">
+                    <i class="fas fa-sign-out-alt text-danger fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End of Top nav -->
+
       </div>
     </div>
   </nav>
   <!--End of Navbar -->
 
+  <!--  Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Want to leave ?</h4>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          Press logout to leave
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-success" data-dismiss="modal">
+            Stay Here
+          </button>
+          <button class="btn btn-danger" data-dismiss="modal">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Modal -->
+
+  <!--  Cards -->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+          <div class="row pt-5 mt-md-3 mb-5">
+
+            <div class="col-xl-3 col-sm-6 p-2">
+              <div class="card card-common">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa-shopping-cart fa-3x text-warning"></i>
+                    <div class="text-right text-secondary">
+                      <h5>Sales</h5>
+                      <h3>$135,000</h3>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="mr-3 fas fa-sync"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 p-2">
+
+              <div class="card card-common">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa-money-bill-alt fa-3x text-success"></i>
+                    <div class="text-right text-secondary">
+                      <h5>Expenses</h5>
+                      <h3>$39,000</h3>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="mr-3 fas fa-sync"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 p-2">
+              <div class="card card-common">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa-users fa-3x text-info"></i>
+                    <div class="text-right text-secondary">
+                      <h5>Users</h5>
+                      <h3>27,560</h3>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="mr-3 fas fa-sync"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 p-2">
+              <div class="card card-common">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <i class="fas fa-chart-line fa-3x text-danger"></i>
+                    <div class="text-right text-secondary">
+                      <h5>Visitors</h5>
+                      <h3>63,452</h3>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="mr-3 fas fa-sync"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Cards   -->
+
+  <!-- Tables   -->
+  <section>
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+              <h3 class="text-mited text-center mb-3">Staff Salary</h3>
+              <table class="table table-striped bg-light text-center table-hover">
+                <thead class="">
+                  <tr class="text-muted">
+                    <th class="">#</th>
+                    <th class="">Name</th>
+                    <th class="">Salary</th>
+                    <th class="">Date</th>
+                    <th class="">Content</th>
+                  </tr>
+                </thead>
+                <tbody class="">
+                  <tr class="">
+                    <th>1</th>
+                    <td>Alvaro</td>
+                    <td>$97,500</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <button class="btn btn-info btn-sm">
+                        Message
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr class="">
+                    <th>2</th>
+                    <td>Diana</td>
+                    <td>$110,700</td>
+                    <td>11/7/2019</td>
+                    <td>
+                      <button class="btn btn-info btn-sm">
+                        Message
+                      </button>
+                    </td>
+                  </tr>
 
 
+                  <tr class="">
+                    <th>3</th>
+                    <td>Perro</td>
+                    <td>$10,000</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <button class="btn btn-info btn-sm">
+                        Message
+                      </button>
+                    </td>
+                  </tr>
 
 
+                  <tr class="">
+                    <th>4</th>
+                    <td>Piter Miakol</td>
+                    <td>$96,000</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <button class="btn btn-info btn-sm">
+                        Message
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr class="">
+                    <th>4</th>
+                    <td>Bob</td>
+                    <td>$56,000</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <button class="btn btn-info btn-sm">
+                        Message
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- Pagination -->
+              <nav>
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      <span class="">&laquo;</span>
+                    </a>
+                  </li>
+
+                  <li class="page-item active">
+                    <a href="#" class="page-link py-2 px-3">
+                      1
+                    </a>
+                  </li>
+
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      2
+                    </a>
+                  </li>
+
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      3
+                    </a>
+                  </li>
+
+
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      <span class="">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- end ofPagination -->
+            </div>
+            <div class=" col-xl-6 col-12">
+              <h3 class="text-mited text-center mb-3">Recent Payments</h3>
+              <table class="table table-dark table-hover text-center">
+                <thead class="">
+                  <tr class="text-muted">
+                    <th class="">#</th>
+                    <th class="">Price</th>
+                    <th class="">Salary</th>
+                    <th class="">Date</th>
+                    <th class="">Status</th>
+                  </tr>
+                </thead>
+                <tbody class="">
+
+                  <tr class="">
+                    <th>1</th>
+                    <td>Monica</td>
+                    <td>$2,700</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <span class="badge badge-success w-75 py-2">Approved</span>
+                    </td>
+                  </tr>
+
+                  <tr class="">
+                    <th>2</th>
+                    <td>Alex</td>
+                    <td>$2,700</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <span class="badge badge-success w-75 py-2">Approved</span>
+                    </td>
+                  </tr>
+
+                  <tr class="">
+                    <th>3</th>
+                    <td>Jose</td>
+                    <td>$4,700</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <span class="badge badge-warning w-75 py-2">Pending</span>
+                    </td>
+                  </tr>
+
+
+                  <tr class="">
+                    <th>4</th>
+                    <td>Jane</td>
+                    <td>$4,700</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <span class="badge badge-warning w-75 py-2">Pending</span>
+                    </td>
+                  </tr>
+
+
+                  <tr class="">
+                    <th>5</th>
+                    <td>Michael</td>
+                    <td>$4,700</td>
+                    <td>25/05/2020</td>
+                    <td>
+                      <span class="badge badge-danger w-75 py-2">Declined <strong> (R03) </strong> </span>
+                    </td>
+                  </tr>
+
+                  <tr class="">
+                    <th>6</th>
+                    <td>Pablo</td>
+                    <td>$50</td>
+                    <td>25/05/2021</td>
+                    <td>
+                      <span class="badge badge-success w-75 py-2">Approved</span>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <!-- Pagination -->
+              <nav>
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      <span class="">Previous</span>
+                    </a>
+                  </li>
+
+                  <li class="page-item ">
+                    <a href="#" class="page-link py-2 px-3">
+                      1
+                    </a>
+                  </li>
+
+                  <li class="page-item active">
+                    <a href="#" class="page-link py-2 px-3">
+                      2
+                    </a>
+                  </li>
+
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      3
+                    </a>
+                  </li>
+
+
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">
+                      <span class="">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- end ofPagination -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Tables   -->
+
+  <!-- Progress/task-list   -->
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+          <div class="row mb-4 align-items-center">
+            <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+              <div class="bg-dark text-light p-4 rounded">
+                <h4 class="mb-5">Conversion Rate</h4>
+
+                <h6 class="mb-3">Chrome</h6>
+                <div class="progress bg-secondary mb-4" style="height:20px;">
+                  <div class="progress-bar progress-bar-striped font-weight-bold" style="width:91%">
+                    91%
+                  </div>
+                </div>
+
+                <h6 class="mb-3">Firefox</h6>
+                <div class="progress bg-secondary mb-4" style="height:20px;">
+                  <div class="progress-bar progress-bar-striped  bg-warning font-weight-bold" style="width:81%">
+                    81%
+                  </div>
+                </div>
+
+                <h6 class="mb-3">IE</h6>
+                <div class="progress bg-secondary mb-4" style="height:20px;">
+                  <div class="progress-bar progress-bar-striped font-weight-bold bg-info" style="width:67%">
+                    67%
+                  </div>
+                </div>
+
+                <h6 class="mb-3">Opera</h6>
+                <div class="progress bg-secondary mb-4" style="height:20px;">
+                  <div class="progress-bar progress-bar-striped bg-danger font-weight-bold" style="width:78%">
+                    78%
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-xl-6 col-12">
+              <h4 class="text-muted p-3 mb-3">Tasks: </h4>
+
+              <div class="container-fluid bg-white">
+                <div class="row py-3 mb-4 task-border">
+                  <div class="col-1">
+                    <input type="checkbox" checked class="" id="">
+                  </div>
+                  <div class="col-sm-9 col-8">
+                    Practice Boostrap
+                  </div>
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Edit" data-placement="top">
+                      <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                    </a>
+                  </div>
+
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Delete" data-placement="top">
+                      <i class="fas fa-trash-alt fa-lg text-danger"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-fluid bg-white">
+                <div class="row py-3 mb-4 task-border">
+                  <div class="col-1">
+                    <input type="checkbox" class="" id="">
+                  </div>
+                  <div class="col-sm-9 col-8">
+                    learn Aurelia
+                  </div>
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Edit" data-placement="top">
+                      <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                    </a>
+                  </div>
+
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Delete" data-placement="top">
+                      <i class="fas fa-trash-alt fa-lg text-danger"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-fluid bg-white">
+                <div class="row py-3 mb-4 task-border">
+                  <div class="col-1">
+                    <input type="checkbox" class="" id="">
+                  </div>
+                  <div class="col-sm-9 col-8">
+                    Finish Side Projects
+                  </div>
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Edit" data-placement="top">
+                      <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                    </a>
+                  </div>
+
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Delete" data-placement="top">
+                      <i class="fas fa-trash-alt fa-lg text-danger"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-fluid bg-white">
+                <div class="row py-3 mb-4 task-border">
+                  <div class="col-1">
+                    <input type="checkbox" checked class="" id="">
+                  </div>
+                  <div class="col-sm-9 col-8">
+                    Migrate portfolio to Blazor
+                  </div>
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Edit" data-placement="top">
+                      <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                    </a>
+                  </div>
+
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Delete" data-placement="top">
+                      <i class="fas fa-trash-alt fa-lg text-danger"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-fluid bg-white">
+                <div class="row py-3 mb-4 task-border">
+                  <div class="col-1">
+                    <input type="checkbox" class="" id="">
+                  </div>
+                  <div class="col-sm-9 col-8">
+                    Practice Angular
+                  </div>
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Edit" data-placement="top">
+                      <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                    </a>
+                  </div>
+
+                  <div class="col-1">
+                    <a href="" class="" data-toggle="tooltip" title="Delete" data-placement="top">
+                      <i class="fas fa-trash-alt fa-lg text-danger"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Progress /task-list   -->
+
+  <!-- Activities / quick post   -->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-10 col-lg-9 col md-8 ml-auto">
+          <div class="row">
+            <div class="col-xl-7">
+              <h4 class="text-muted mb-4">Recent Customer Activities</h4>
+              <div id="accordion" class="">
+                <div class="card">
+                  <div class="card-header">
+                    <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse"
+                      data-target="#cola1">
+                      <img src="https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg" width="50px" alt="random person"
+                        class="mr-3 rounded" srcset="">
+                      John Sent you a new message
+                    </button>
+                  </div>
+                  <div class="collapse show" id="cola1" data-parent="#accordion">
+                    <div class="card-body">
+                      Hey man we gotta talk.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse"
+                      data-target="#cola2">
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        width="50px" alt="random person" class="mr-3 rounded" srcset="">
+                      Mark Sent you a new message
+                    </button>
+                  </div>
+                  <div class="collapse" id="cola2" data-parent="#accordion">
+                    <div class="card-body">
+                      Can you please send over Jose.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse"
+                      data-target="#cola3">
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        width="50px" alt="random person" class="mr-3 rounded" srcset="">
+                      Jill Sent you a new message
+                    </button>
+                  </div>
+                  <div class="collapse" id="cola3" data-parent="#accordion">
+                    <div class="card-body">
+                      Dude I need a new gun.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse"
+                      data-target="#cola4">
+                      <img
+                        src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-Brooklyn-99-Andy-Sanberg.jpg"
+                        width="50px" alt="random person" class="mr-3 rounded" srcset="">
+                      Jake Sent you a new message
+                    </button>
+                  </div>
+                  <div class="collapse" id="cola4" data-parent="#accordion">
+                    <div class="card-body">
+                      Noooice 😝 😜 🤪
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 mt-5">
+              <div class="card rounded">
+                <div class="card-body">
+                  <h5 class="text-muted text-center mb-4">
+                    Quick Status Post
+                  </h5>
+
+                  <ul class="list-inline text-center py-3">
+                    <li class="list-inline-item mr-4">
+                      <a href="#" class="">
+                        <i class="fas fa-pencil-alt text-success"></i>
+                        <span class="h6 text-muted">Status</span>
+                      </a>
+                    </li>
+
+                    <li class="list-inline-item mr-4">
+                      <a href="#" class="">
+                        <i class="fas fa-camera text-info"></i>
+                        <span class="h6 text-muted">Photo</span>
+                      </a>
+                    </li>
+
+                    <li class="list-inline-item mr-4">
+                      <a href="#" class="">
+                        <i class="fas fa-map-marker-alt text-primary"></i>
+                        <span class="h6 text-muted">Check-in</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <form action="" class="">
+                    <div class="form-group">
+                      <input type="text" class="form-control py-2 mb-3" placeholder="What's your status.">
+                      <button class=" btn btn-block text-uppercase font-weight-bold text-light bg-info py-2 mb-5">Submit
+                        Post</button>
+                    </div>
+                  </form>
+
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="card bg-light">
+                        <i class="text-warning far fa-calendar-alt fa-8x d-block m-auto py-3"></i>
+                        <div class="card-body">
+                          <p class="card-text text-center text-uppercase font-weight-bold">Wed, May </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="card bg-light">
+                        <i class="text-danger far fa-clock fa-8x d-block m-auto py-3"></i>
+                        <div class="card-body">
+                          <p class="card-text text-center text-uppercase font-weight-bold">3:50Am</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- End of Activities / quick post   -->
+
+  <!-- Footer   -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+          <div class="row border-top pt-3">
+            <div class="col-lg-6 text-center">
+              <div class="list-inline">
+                <li class="list-inline-item my-2">
+                  <a href="#" class=" text-dark">Alvaro G-</a>
+                </li>
+
+                <li class="list-inline-item my-2">
+                  <a href="#" class=" text-dark">Support</a>
+                </li>
+
+                <li class="list-inline-item my-2">
+                  <a href="#" class=" text-dark">About</a>
+                </li>
+
+                <li class="list-inline-item my-2">
+                  <a href="#" class=" text-dark">Blog</a>
+                </li>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <p class="">
+                &copy; 2020 Copyright <i class="fas fa-heart text-danger"></i> By Alvaro G.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- End of Footer   -->
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
